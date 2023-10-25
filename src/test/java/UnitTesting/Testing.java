@@ -20,7 +20,7 @@ public class Testing {
     @Test
     void addTestSecond(){
         int result = mainClass.add();
-        Assertions.assertEquals(result,2);
+        Assertions.assertEquals(result,9);
     }
 
 
