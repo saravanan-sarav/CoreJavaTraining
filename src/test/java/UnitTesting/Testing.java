@@ -17,6 +17,12 @@ public class Testing {
         Assertions.assertEquals(result,9);
     }
 
+    @Test
+    void addTestSecond(){
+        int result = mainClass.add();
+        Assertions.assertEquals(result,2);
+    }
+
 
     @BeforeEach
     void add_BeforeEach(){
